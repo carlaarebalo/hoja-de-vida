@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans:ital,wght@0,300;0,600;1,500;1,700 & family= Raleway:wght@200 & family= Source+ Sans+Pro:peso@200 & pantalla=intercambiar');
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'open sans', sans-serif;
+}
+:root {
+    --nord0: #2E3440;
+    --nord1: #3b4252;
+    --nord2: #434C5E;
+    --nord3:#4C56GA;
+    --nord4:#D8DEE9;
+    --nord5:#E5E9F0;
+    --nord6:#ECEFF4;
+    --nord7:#8FBCBB;
+    --nord8:#88C0D0;
+    --nord9:#81A1C1;
+    --nord10:#5E81AC;
+    --nord11:#cecbcb;
+    --nord12:#D08770;
+    --nord13:#49320a;
+    --nord14:#A3BE8C;
+    --nord15:#B48EAD;
+    --font: arial,helvetica,courier;
+}
+
+header, section{
+    width: 945px;
+    margin: 0 auto ;
+}
+header{
+    border: 2px solid #cecbcb;
+    margin: auto;
+    background-color:  #0F0330;
+    color:black;
+    border: 2px solid white;
+    padding: 20px 20px 20px 5px;
+}
+header { 
+    display:flex;
+}
+section{
+    width: 970px;
+    display:flex;
+    border: 2px solid white;
+    border-width: 20px 2px;
+}
+article{
+    width:60%;
+}
+.body{
+    background-color: #cecbcb;
+    font-family: 'Open Sans', sans-serif;
+}
+article h2{
+    background-color: #0F0330;
+    color:#cecbcb;
+    margin: auto;
+    padding-left : 70px;
+}
+aside h2{
+    background-color: #0F0330;
+    color:#cecbcb;
+    margin: auto;
+    padding-left : 70px;
+}
+
+ul{
+    list-style-type: unset;
+}
+.Datos{
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 100px;
+    font-family:  "Times new roman",georgia,"helvetica ";
+}
+img{
+    width: 350px;
+    height: 250px;
+    margin-left: 50px;
+}
+.pie-página{
+    width:975px;
+    height:150px;
+    background-color: #0F0330;
+    font-family:'Open Sans', sans-serif;
+    margin:0 auto;
+    border: 2px solid white;
+    padding: 20px 5px 20px 5px;
+}
+.pie-página {
+    width: 970px;
+    height: 180px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:40px;
+    padding: 15px 0px;  
+}
+.pie-página  .caja img{
+    width:250px;
+    height: 170px;
+    padding: 15pxs;
+    margin: 10px;
+
+}
+.caja .figure{
+    width: 100px;
+    height: 250px;
+    margin-left: 50px;
+
+}
+.pie-página .caja h2{
+    color: #ECEFF4;
+    margin-bottom:45px;
+    font-size: 25px;
+}
+.pie-página .caja p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-página .redes-sociales{    
+    line-height: 45px;
+    color:white;
+    margin-right:150px;
+    text-align:center;
+    word-spacing: 0.50em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
